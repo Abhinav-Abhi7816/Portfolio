@@ -45,6 +45,12 @@ export const JSProjectsArr = [
     desc:DescriptionArrJS
   },
   {
+    name: "Zomato-Clone",
+    gitLink: "https://abhinav-abhi7816.github.io/Zomato-clone/",
+    imageLink: "/Portfolio/images/Zomato-Clone.png",
+    desc:DescriptionArrJS
+  },
+  {
     name: "Restaurant",
     gitLink: "https://abhinav-abhi7816.github.io/Restaurant-UI/",
     imageLink: "/Portfolio/images/rest-web.png",
@@ -70,12 +76,6 @@ export const JSProjectsArr = [
     imageLink: "/Portfolio/images/age-calculator.png",
     desc:DescriptionArrJS
   },
-  {
-    name: "Job-Application",
-    gitLink: "",
-    imageLink: "/Portfolio/images/job appl-web.png",
-    desc:DescriptionArrJS
-  }
 ];
 
 export const MernProjectsArr=[

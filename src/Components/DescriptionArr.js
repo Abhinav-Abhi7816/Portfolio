@@ -81,9 +81,19 @@ Responsibilities:\n
 -API Integration: Integrated an external API to fetch and display real-time weather data, allowing users to search for current weather conditions by entering a city name.\n
 -Comprehensive Weather Details: Implemented features to display extensive weather information, including the day's description, temperature (current, maximum, minimum in Celsius), humidity percentage, dew point, "feels like" temperature, wind speed (in km/h), wind direction (degrees and cardinal direction), wind gusts, rain info, cloud cover, and more.\n
 This project highlights my proficiency in front-end development, API integration, and building interactive, data-driven web applications.\n`,
-        tools: `Technologies: HTML, CSS , JavaScript. \nTools: VS Code`,
-        note: ""
-    },
+tools: `Technologies: HTML, CSS , JavaScript. \nTools: VS Code`,
+note: ""
+},
+{
+    name: "Zomato-Clone",
+    desc: `Developed a Zomato clone web application with pinpoint accuracy to replicate the original website, utilizing HTML and CSS for a seamless user experience. \n
+Responsibilities: \n
+-Front-End Development: Designed and implemented the front-end using HTML and CSS, ensuring a visually appealing, responsive, and user-friendly interface that mimics the original Zomato website. \n
+-Layout and Design: Created a clean and organized layout, replicating the structure of the original Zomato website, including a restaurant search feature, navigation menus, and footer sections. \n
+-Styling and Branding: Applied modern CSS styling techniques, closely matching the color schemes, fonts, and design aesthetics of the original Zomato platform. \n`,
+    tools: `Technologies: HTML, CSS \nTools: VS Code`,
+    note: ""    
+},
     {
         name: "Restaurant-Website",
         desc: `Developed a responsive restaurant website featuring login and signup functionalities, aimed at enhancing user experience and interaction with the site.\n
@@ -94,7 +104,7 @@ Front-End Development: Designed and implemented the front-end of the website usi
 -Responsive Design: Ensured the website was fully responsive and optimized for both desktop and mobile views, providing a smooth browsing experience.\n
 -User Experience: Focused on enhancing the user experience by ensuring easy navigation, clear call-to-action buttons, and a streamlined process for account creation and login.\n`,
         tools: `Technologies: HTML, CSS \nTools: VS Code`,
-        note: "If you're using a mobile device, there might be a slight issue with the interface. Try zooming out to make it fit perfectly."
+        note: ""
     },
     {
         name: "Rock-Paper-Scissor",
@@ -128,17 +138,6 @@ Responsibilities:\n
         tools: `Technologies: HTML, CSS , JavaScript. \nTools: VS Code`,
         note: ""
     },
-    {
-        name: "Weather-App",
-        desc: `Developed a user-friendly web application that provides real-time weather information for any searched location, featuring detailed current and forecasted weather data.\n
-Responsibilities:\n
--Front-End Development: Designed and implemented the front-end using HTML, CSS, and JavaScript, ensuring a visually appealing and responsive user interface.\n
--API Integration: Integrated an external API to fetch and display real-time weather data, allowing users to search for current weather conditions by entering a city name.\n
--Comprehensive Weather Details: Implemented features to display extensive weather information, including the day's description, temperature (current, maximum, minimum in Celsius), humidity percentage, dew point, "feels like" temperature, wind speed (in km/h), wind direction (degrees and cardinal direction), wind gusts, rain info, cloud cover, and more.\n
-This project highlights my proficiency in front-end development, API integration, and building interactive, data-driven web applications.\n`,
-        tools: `Technologies: HTML, CSS , JavaScript. \nTools: VS Code`,
-        note: ""
-    },
 
 ]
 
@@ -153,7 +152,7 @@ Key Features:\n
 -Responsive Design: Developed a visually appealing and responsive user interface using React.js and Tailwind CSS, providing a seamless user experience on both desktop and mobile devices.\n
 -Secure Data Management: The system is designed to handle sensitive data securely, including vote tallies, user credentials, and candidate information, with controlled access for both regular users and administrators.\n`,
         tools: `Technologies: React JS, Node JS, Express JS, MongoDB, Tailwind CSS.\nTools: VS Code, Postman, MongoDB Compass.`,
-        note: "Username: abhinavabhi and Password: abhinav123 — use these credentials to log in and access the Admin page, where you can view vote counts, nominee candidates' details, and voter details. If there is an error during login or sign-up or fetching in Voting page, please wait for 20 seconds and try again. This delay is due to the service latency from Render (the cloud service) for hosting the server for free."
+        note: "Username: abhinavabhi and Password: abhinav123 — use these credentials to log in to access the Admin page, where you can view vote counts, nominee candidates' details, and voter details. If there is an error during login or sign-up or fetching in Voting page, please wait for 20 seconds and try again. This delay is due to the service latency from Render (the cloud service) for hosting the server for free."
     },
     {
         name: "Recipe-App",
