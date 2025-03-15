@@ -91,5 +91,11 @@ export const MernProjectsArr=[
     imageLink: '/Portfolio/images/Recipe-App.png',
     desc: DescriptionArrMern
   },
+  {
+    name: 'College-Voting-App',
+    gitLink: 'https://abhinav-abhi7816.github.io/VotingApp-College-Front/',
+    imageLink: '/Portfolio/images/Voting-app-college.png',
+    desc: DescriptionArrMern
+  },
 
 ]

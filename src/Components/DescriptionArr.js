@@ -166,4 +166,17 @@ Key Features:\n
         tools: `Technologies: React JS, Node JS, Express JS, MongoDB, Tailwind CSS.\nTools: VS Code, Postman, MongoDB Compass.`,
         note: "If there is an error during login or sign-up, please wait for 20 seconds and try again. This delay is due to the service latency from Render (the cloud service) for hosting the server for free."
     },
+    {
+        name: "Voting-App",
+        desc: `Developed a responsive and visually appealing voting application using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Tailwind CSS, designed to facilitate secure and efficient online voting, such as for college elections, with the potential for adaptation to regular elections.\n
+Key Features:\n
+-User Authentication: Implemented a secure login and signup system, ensuring that users can only participate in voting after creating an account. Password encryption was handled using bcrypt.js to ensure secure storage of user credentials.\n
+-Voting System: Users are able to vote for candidates after logging in, ensuring secure and confidential participation.\n
+-Admin Access: Admin users have exclusive access to view vote counts and detailed information about candidates and voters. This feature ensures that administrative functions are separated and securely managed.\n
+-Responsive Design: Developed a visually appealing and responsive user interface using React.js and Tailwind CSS, providing a seamless user experience on both desktop and mobile devices.\n
+-Secure Data Management: The system is designed to handle sensitive data securely, including vote tallies, user credentials, and candidate information, with controlled access for both regular users and administrators.\n`,
+        tools: `Technologies: React JS, Node JS, Express JS, MongoDB, Tailwind CSS.\nTools: VS Code, Postman, MongoDB Compass.`,
+        note: "Username: abhinavabhi and Password: abhinav123 — use these credentials to log in to access the Admin page, where you can view vote counts, nominee candidates' details, and voter details. If there is an error during login or sign-up or fetching in Voting page, please wait for 20 seconds and try again. This delay is due to the service latency from Render (the cloud service) for hosting the server for free."
+    },
+    
 ]
