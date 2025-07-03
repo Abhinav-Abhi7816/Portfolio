@@ -163,12 +163,12 @@ a
 {
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-    gap:100px;
+    gap:50px;
     padding:50px 30px;
 }
 .cards
 {
-    max-width:350px;
+    max-width:380px;
     margin:0 auto;
     text-align:center;
     transition:0.3s ease-in-out;
