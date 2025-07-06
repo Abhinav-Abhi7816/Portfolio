@@ -7,6 +7,17 @@ function ProjDetails() {
   const [localArr, setLocalArr] = useState([]);
   const [localDescArr, setLocalDescArr] = useState('');
 
+  const scrollToTop=()=>{
+    window.scrollTo({
+      top:0,
+      behavior:"instant" 
+    });
+  }
+
+  useEffect(()=>{
+    scrollToTop();
+  },[]);
+
   useEffect(() => {
     if (usedArr === 'react') {
       setLocalArr(ReactProjectsArr);
