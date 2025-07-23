@@ -18,6 +18,9 @@ function NavBar() {
             <li>
               <NavLink to="/" exact activeClassName="active" onClick={() => scrollToSection('hero')}>Home</NavLink>
             </li>
+             <li>
+              <NavLink to="/" exact activeClassName="active" onClick={() => scrollToSection('skills')}>Skills</NavLink>
+            </li>
             <li>
               <NavLink to="/" exact activeClassName="active" onClick={() => scrollToSection('projects')}>Projects</NavLink>
             </li>

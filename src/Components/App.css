@@ -46,7 +46,7 @@ nav{
 ul
 {
     display:flex;
-    gap:10px;
+    gap:24px;
     list-style:none;
     font-size:1.3rem;
 }
@@ -377,4 +377,11 @@ a
      .skills h2{
         font-size: 1.6rem;
      }
+}
+@media(max-width:430px)
+{
+   
+    ul{
+        gap:10px;
+    }
 }

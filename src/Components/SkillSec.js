@@ -3,7 +3,7 @@ import './App.css'
 function SkillSec() {
   return (
     <>
-      <section className="skills md:pt-5 font-bold">
+      <section className="skills md:pt-5 font-bold" id='skills'>
         <h1>My Technical Skills</h1>
         <div className="flex justify-around  flex-wrap gap-12 px-5 md:py-12 py-8 ">
             <h2>Java (DSA)</h2>

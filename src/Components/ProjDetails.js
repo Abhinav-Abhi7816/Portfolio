@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import useUserContext from './Contexts/UserContext'
 import { ReactProjectsArr, JSProjectsArr,MernProjectsArr } from './ProjArr'
 import { MdOpenInNew } from "react-icons/md";
+import { IoLogoGithub } from "react-icons/io";
+
 function ProjDetails() {
   const { ind, usedArr } = useUserContext()
   const [localArr, setLocalArr] = useState([]);
@@ -52,7 +54,13 @@ function ProjDetails() {
                 <div className='flex flex-col place-items-center gap-10'>
                   <h1 className='md:text-4xl text-3xl text-[#003d62] font-semibold text-center md:py-4 py-2 border-b-4 border-black w-[82%]'>{localArr[ind].name}</h1>
                   <img src={localArr[ind].imageLink} alt={localArr.name} className='md:w-[600px] md:h-[400px] rounded-xl shadow-2xl' />
-                  <a href={localArr[ind].gitLink} target='_blank' rel='noreferrer noopener'><button className='text-white flex place-items-center gap-2 text-2xl bg-green-500 px-24 py-2 rounded-lg hover:bg-green-600'><p>Open Project Live</p><MdOpenInNew></MdOpenInNew></button></a>
+                  <div className='flex flex-col gap-4'>
+                    <a href={localArr[ind].gitLink} target='_blank' rel='noreferrer noopener'><button className='text-white flex place-items-center gap-4 text-2xl bg-green-500 px-24 py-2 rounded-lg hover:bg-green-600'><p>Open Project Live</p><MdOpenInNew></MdOpenInNew></button></a>
+                  <a href={localArr[ind].frontendLink} target='_blank' rel='noreferrer noopener'><button className='text-white flex place-items-center gap-2 text-2xl bg-black px-28 py-2 rounded-lg hover:bg-gray-700'><p>Frontend Code</p><IoLogoGithub className='size-8'></IoLogoGithub></button></a>
+                  {(localArr[ind].backendlink===null || localArr[ind].backendlink.trim()==='')?null:<div>
+                    <a href={localArr[ind].backendlink} target='_blank' rel='noreferrer noopener'><button className='text-white flex place-items-center gap-2 text-2xl bg-black px-32 py-2 rounded-lg hover:bg-gray-700'><p>Server Code</p><IoLogoGithub className='size-8'></IoLogoGithub></button></a>
+                  </div>}
+                  </div>
                 </div>
               </div>
               <div className='text-white text-xl'>
